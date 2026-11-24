@@ -4,7 +4,6 @@ O CinemaSwagger é um sistema web de gestão de cinema desenvolvido como trabalh
 
 A interface React e o Swagger acessam a mesma API REST. A API aplica as regras de negócio e persiste os dados no PostgreSQL. Cada filme pode ter várias sessões, e cada sessão reúne suas próprias reservas. Ao cancelar uma reserva, por exemplo, os lugares voltam a aparecer como disponíveis tanto na interface quanto na API.
 
-**Integrantes:** Arthur F., Bruno S., Guilherme Z., Rafael D. e Matheus B.
 
 ## Funcionalidades
 
