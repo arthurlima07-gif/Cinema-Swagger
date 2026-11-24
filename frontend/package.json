@@ -1,0 +1,22 @@
+{
+  "name": "cinemaswagger-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "check": "tsc --noEmit",
+    "build": "npm run check && vite build",
+    "preview": "vite preview",
+    "test": "vite build --ssr tests/componentes.tsx --outDir .test-build && node .test-build/componentes.js"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "typescript": "5.9.3",
+    "vite": "8.3.3"
+  }
+}

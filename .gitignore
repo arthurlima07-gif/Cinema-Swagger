@@ -1,0 +1,11 @@
+.idea/
+bin/
+obj/
+.vs/
+.env
+__pycache__/
+/.cinema-local/
+
+frontend/node_modules/
+frontend/dist/
+frontend/.test-build/
